@@ -16,8 +16,8 @@ namespace Ejercicio_1
             string nombre = Console.ReadLine();
             Console.WriteLine("Ingrese edad: ");
             string edad = Console.ReadLine();
-            Console.WriteLine("Su nombre es " + nombre + "la edad es" + edad);
-            Console.WriteLine("visto de otra manera {0} y la edad es {1}", nombre, edad);
+            Console.WriteLine("Su nombre es " + nombre + "la edad es " + edad);
+ 
             Console.ReadKey();
         }
     }
