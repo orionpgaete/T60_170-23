@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ejercicio_Persona.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,8 +18,7 @@ namespace Ejercicio_Persona
             bool esValido;
 
             Console.WriteLine(" Bienvenido al programa del IMC");
-
-
+            
             do
             {
                 Console.WriteLine("Ingrese nombre");
@@ -42,6 +42,8 @@ namespace Ejercicio_Persona
                 Console.WriteLine("Ingrese Peso");
                 esValido = Double.TryParse(Console.ReadLine().Trim(), out peso);
             } while (!esValido);
+
+            Persona p = new Persona();
 
             Console.WriteLine("Nombre: {0}", nombre);
             Console.WriteLine("Telefono: {0}", telefono);
