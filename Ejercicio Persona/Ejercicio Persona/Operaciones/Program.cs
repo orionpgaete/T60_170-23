@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_Persona.Operaciones
 {
-    internal class Program
+    public partial class Program
     {
     }
 }
