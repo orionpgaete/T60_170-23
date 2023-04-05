@@ -25,5 +25,31 @@ namespace AdminPersonasModel.DAL
             return personas;
         }
 
+        public List<Persona> FiltrarPersonas(string nombre)
+        {
+            List<Persona> filtrada = new List<Persona>();
+            //Metodo 1
+            /* for (int i=0; i < personas.Count(); i++)
+             {
+                 if (personas[i].Nombre == nombre)
+                 {
+                     filtrada.Add(personas[i]);
+                 }
+             }*/
+            //Metodo 2
+            /*
+            foreach (Persona p in personas)
+            {
+                if (p.Nombre == nombre)
+                {
+                    filtrada.Add(p);
+                }
+            }*/
+
+            //Metodo 3
+            return personas.FindAll(p => p.Nombre == nombre);
+
+           // return filtrada;
+        }
     }
 }

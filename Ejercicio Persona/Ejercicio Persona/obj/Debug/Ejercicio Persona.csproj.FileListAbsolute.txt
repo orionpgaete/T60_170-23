@@ -6,3 +6,6 @@ D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Ejer
 D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Ejercicio Persona\Ejercicio Persona\obj\Debug\Ejercicio Persona.csproj.CoreCompileInputs.cache
 D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Ejercicio Persona\Ejercicio Persona\obj\Debug\Ejercicio Persona.exe
 D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Ejercicio Persona\Ejercicio Persona\obj\Debug\Ejercicio Persona.pdb
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Ejercicio Persona\Ejercicio Persona\bin\Debug\AdminPersonasModel.dll
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Ejercicio Persona\Ejercicio Persona\bin\Debug\AdminPersonasModel.pdb
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Ejercicio Persona\Ejercicio Persona\obj\Debug\Ejercicio Persona.csproj.CopyComplete
