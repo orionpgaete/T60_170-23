@@ -9,6 +9,7 @@ namespace Ejercicio_Persona
 {
     public partial class Program
     {
+        static IPersonasDAL personasDAL = new PersonasDALArchivo();
         static void IngresarPersona()
         {
             string nombre;
@@ -56,7 +57,7 @@ namespace Ejercicio_Persona
              p.Telefono = telefono;*/
 
             p.calcularImc();
-            new PersonasDAL().AgregarPersona(p);
+            personasDAL.AgregarPersona(p);
 
             Console.WriteLine("Nombre: {0}", p.Nombre);
             Console.WriteLine("Telefono: {0}", p.Telefono);
@@ -67,7 +68,7 @@ namespace Ejercicio_Persona
 
         static void MostrarPersona()
         {
-            List<Persona> personas = new PersonasDAL().ObtenerPersonas();
+            List<Persona> personas = personasDAL.ObtenerPersonas();
             for (int i=0; i < personas.Count(); i++)
             {
                 Persona actual = personas[i];
@@ -78,7 +79,7 @@ namespace Ejercicio_Persona
 
         {
             Console.WriteLine("Ingrese nombre");
-            List<Persona> filtradas = new PersonasDAL()
+            List<Persona> filtradas = personasDAL
                         .FiltrarPersonas(Console.ReadLine().Trim());
             filtradas.ForEach(p => Console.WriteLine("Nombre: {0} Peso: {1}", p.Nombre, p.Peso));
 
