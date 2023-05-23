@@ -57,6 +57,10 @@
       <Project>{e33fcbb6-cf1e-4cbb-aedf-dd8f9d51bf17}</Project>
       <Name>MensajeroModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ServidorSocketutil\ServidorSocketutil.csproj">
+      <Project>{7a65b412-8543-4500-a834-560c078416b1}</Project>
+      <Name>ServidorSocketutil</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
