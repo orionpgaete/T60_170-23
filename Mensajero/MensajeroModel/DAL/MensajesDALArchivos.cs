@@ -10,6 +10,26 @@ namespace MensajeroModel
 {
     public class MensajesDALArchivos : IMensajesDAL
     {
+        //Esto es un patron Singleton
+        //1. el contrcutor tiene que ser private
+        private MensajesDALArchivos()
+        {
+
+        }
+
+        //2. Debe poseer un atributo del mismo tipo de la clase y estatico
+        private static MensajesDALArchivos instancia;
+
+        //3. Tener un metodo GetIntance, que devuelve una referencia al atributo
+        public static IMensajesDAL GetInstancia()
+        {
+            if (instancia == null)
+            {
+                instancia = new MensajesDALArchivos();
+            }
+            return instancia;
+        }
+
         private static string url = Directory.GetCurrentDirectory();
         private static string archivo = url + "/mensajes.txt";
         public void AgregarMensaje(Mensaje mensaje)
@@ -37,7 +57,7 @@ namespace MensajeroModel
                     string texto = "";
                     do
                     {
-                        texto = reader.ReadToEnd();
+                        texto = reader.ReadLine();
                         if (texto != null)
                         {
                             string[] arr = texto.Trim().Split(';');

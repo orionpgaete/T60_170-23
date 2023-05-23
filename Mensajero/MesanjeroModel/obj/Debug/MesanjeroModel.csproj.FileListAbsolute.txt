@@ -1,0 +1,6 @@
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\MesanjeroModel\bin\Debug\MesanjeroModel.dll
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\MesanjeroModel\bin\Debug\MesanjeroModel.pdb
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\MesanjeroModel\obj\Debug\MesanjeroModel.csproj.AssemblyReference.cache
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\MesanjeroModel\obj\Debug\MesanjeroModel.csproj.CoreCompileInputs.cache
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\MesanjeroModel\obj\Debug\MesanjeroModel.dll
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\MesanjeroModel\obj\Debug\MesanjeroModel.pdb
