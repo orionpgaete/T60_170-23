@@ -8,3 +8,5 @@ D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mens
 D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\Mensajero\obj\Debug\Mensajero.pdb
 D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\Mensajero\bin\Debug\MensajeroModel.dll
 D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\Mensajero\bin\Debug\MensajeroModel.pdb
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\Mensajero\bin\Debug\ServidorSocketutil.dll
+D:\1. Clases INACAP\2. Clases\2.19 Programacion Avanzada C#\2023\T60_170-23\Mensajero\Mensajero\bin\Debug\ServidorSocketutil.pdb
