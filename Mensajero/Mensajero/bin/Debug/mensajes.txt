@@ -1,2 +1,4 @@
 pedro;jfkgjkjgfh 14:58;Aplicacion
 dfsdfsd;dfsdfsd;TCP
+pedro;dfsdd;TCP
+pablo;dfsddggdg;Aplicacion
