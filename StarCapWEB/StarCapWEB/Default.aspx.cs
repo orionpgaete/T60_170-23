@@ -27,7 +27,6 @@ namespace StarCapWEB
                 this.bebidaDdl.DataTextField = "Nombre";
                 this.bebidaDdl.DataValueField = "Codigo";
                 this.bebidaDdl.DataBind();
-
             }
         }
 
