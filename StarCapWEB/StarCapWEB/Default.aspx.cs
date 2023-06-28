@@ -60,6 +60,7 @@ namespace StarCapWEB
             clientesDAL.Agregar(cliente);
             //4. Mostrar mensaje de texto
             this.mensaje.Text = "Cliente Ingresado";
+            Response.Redirect("VerClientes.aspx");
         }
     }
 }
