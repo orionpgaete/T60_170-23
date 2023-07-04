@@ -41,11 +41,8 @@ namespace StarCapWEB
             string bebidaTexto = this.bebidaDdl.SelectedItem.Text;
             int nivel = Convert.ToInt32(this.nivelRbl.SelectedValue);
 
-            Bebida bebida = new Bebida()
-            {
-                Codigo=bebidaValor,
-                Nombre=bebidaTexto
-            };
+            List<Bebida> bebidas = bebidasDAL.ObtenerBebidas();
+            Bebida bebida = bebidas.Find(b => b.Codigo == this.bebidaDdl.SelectedItem.Value);
 
             //2. Construir el objeto de tipo cliente
             Cliente cliente = new Cliente()

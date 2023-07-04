@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="StarCapWEB.Principal" %>
+﻿<%@ Master Language="C#" Debug="true" AutoEventWireup="true"  CodeBehind="Principal.master.cs" Inherits="StarCapWEB.Principal" %>
 
 <!DOCTYPE html>
 
@@ -13,6 +13,7 @@
     <form id="form1" runat="server">
         <header class="container-fluid bg-dark text-white">
             <h1>StarCap Puntuacion Clientes</h1>
+
         </header>
         <div class="container-fluid mt-5">
             <asp:ContentPlaceHolder ID="Contenido" runat="server">

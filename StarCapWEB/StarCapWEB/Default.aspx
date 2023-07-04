@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="StarCapWEB.Default" %>
+﻿<%@ Page Title="" Language="C#" Debug="true" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="StarCapWEB.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenido" runat="server">
     <div class="row">
         <div class="col-lg-6 mx-auto">
